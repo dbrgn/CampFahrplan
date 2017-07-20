@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="pressed_congress">#CC0099AB</color>
+
+    <!-- Default state -->
+    <color name="event_border_default">#333333</color>
+    <color name="event_border_default_art_culture">#ba4c73</color>
+    <color name="event_border_default_ccc">#b3aa50</color>
+    <color name="event_border_default_entertainment">#7a9412</color>
+    <color name="event_border_default_ethics_society_politics">#006661</color>
+    <color name="event_border_default_hardware_making">#4f3669</color>
+    <color name="event_border_default_other">#388f75</color>
+    <color name="event_border_default_podcastingtisch">#51529C</color>
+    <color name="event_border_default_science">#005c91</color>
+    <color name="event_border_default_security_hacking">#9c2434</color>
+    <color name="event_border_default_self_organized_sessions">#E83589</color>
+    <color name="event_border_default_sendezentrumsbuehne">#b5742a</color>
+    <color name="event_border_default_space">#242424</color>
+
+    <!-- Highlight state -->
+    <color name="event_border_highlight">@color/event_border_default</color>
+    <color name="event_border_highlight_art_culture">#EC6090</color>
+    <color name="event_border_highlight_ccc">#e1d33e</color>
+    <color name="event_border_highlight_entertainment">#A2C617</color>
+    <color name="event_border_highlight_ethics_society_politics">#009A93</color>
+    <color name="event_border_highlight_hardware_making">#75519C</color>
+    <color name="event_border_highlight_other">#4bc29f</color>
+    <color name="event_border_highlight_podcastingtisch">#51529C</color>
+    <color name="event_border_highlight_science">#007BC4</color>
+    <color name="event_border_highlight_security_hacking">#E7344C</color>
+    <color name="event_border_highlight_self_organized_sessions">#E83589</color>
+    <color name="event_border_highlight_sendezentrumsbuehne">#E89535</color>
+    <color name="event_border_highlight_space">#575757</color>
+
+    <!--Accent color-->
+    <color name="event_border_accent">#888</color>
+    <color name="event_border_accent_art_culture">@color/event_border_highlight_art_culture</color>
+    <color name="event_border_accent_ccc">@color/event_border_highlight_ccc</color>
+    <color name="event_border_accent_entertainment">@color/event_border_highlight_entertainment</color>
+    <color name="event_border_accent_ethics_society_politics">@color/event_border_highlight_ethics_society_politics</color>
+    <color name="event_border_accent_hardware_making">@color/event_border_highlight_hardware_making</color>
+    <color name="event_border_accent_other">@color/event_border_highlight_other</color>
+    <color name="event_border_accent_podcastingtisch">@color/event_border_highlight_podcastingtisch</color>
+    <color name="event_border_accent_science">@color/event_border_highlight_science</color>
+    <color name="event_border_accent_security_hacking">@color/event_border_highlight_security_hacking</color>
+    <color name="event_border_accent_self_organized_sessions">@color/event_border_highlight_self_organized_sessions</color>
+    <color name="event_border_accent_sendezentrumsbuehne">@color/event_border_highlight_sendezentrumsbuehne</color>
+    <color name="event_border_accent_space">@color/event_border_highlight_space</color>
+
+    <!--Accent color highlight-->
+    <color name="event_border_accent_highlight">#888</color>
+    <color name="event_border_accent_highlight_art_culture">@color/event_border_default_art_culture</color>
+    <color name="event_border_accent_highlight_ccc">@color/event_border_default_ccc</color>
+    <color name="event_border_accent_highlight_entertainment">@color/event_border_default_entertainment</color>
+    <color name="event_border_accent_highlight_ethics_society_politics">@color/event_border_default_ethics_society_politics</color>
+    <color name="event_border_accent_highlight_hardware_making">@color/event_border_default_hardware_making</color>
+    <color name="event_border_accent_highlight_other">@color/event_border_default_other</color>
+    <color name="event_border_accent_highlight_podcastingtisch">@color/event_border_default_podcastingtisch</color>
+    <color name="event_border_accent_highlight_science">@color/event_border_default_science</color>
+    <color name="event_border_accent_highlight_security_hacking">@color/event_border_default_security_hacking</color>
+    <color name="event_border_accent_highlight_self_organized_sessions">@color/event_border_default_self_organized_sessions</color>
+    <color name="event_border_accent_highlight_sendezentrumsbuehne">@color/event_border_default_sendezentrumsbuehne</color>
+    <color name="event_border_accent_highlight_space">@color/event_border_default_space</color>
+
+    <!--Title color-->
+    <color name="event_title">#a0ffffff</color>
+    <color name="event_title_highlight">#fff</color>
+</resources>

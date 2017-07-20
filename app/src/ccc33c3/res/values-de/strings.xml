@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ZeTeCo Fahrplan</string>
+    <string name="app_name">33C3 Fahrplan</string>
     <string name="conference_url">
         <![CDATA[<a href="http://events.ccc.de/congress/2016/">http://events.ccc.de/congress/2016/</a>]]>
     </string>

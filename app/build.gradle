@@ -43,20 +43,20 @@ android {
     }
 
     productFlavors {
-        ccc33c3 {
+        zeteco {
             applicationId "org.ligi.fahrplan"
             buildConfigField "String", "SCHEDULE_URL", '"https://fahrplan.zeteco.ch/schedule.xml"'
             buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"https://fahrplan.zeteco.ch"'
             buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
             buildConfigField "String", "SCHEDULE_PART", '""'
-            buildConfigField "String", "VENUE", '"cch"'
+            buildConfigField "String", "VENUE", '"Griesbach Schaffhausen"'
             buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2017"
             buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "7"
             buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "21"
             buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2017"
             buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "7"
             buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "24"
-            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/33C3/public/events/%s/feedback/new"'
+            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://fahrplan.zeteco.ch/%s/feedback/new"'
         }
     }
 

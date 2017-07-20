@@ -1,6 +1,6 @@
 
 node {
- def flavorCombination='ccc33c3'
+ def flavorCombination='zeteco'
 
  stage 'checkout'
   checkout scm

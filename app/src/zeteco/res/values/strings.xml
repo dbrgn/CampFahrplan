@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZeTeCo Schedule</string>
+    <string name="conference_url">
+        <![CDATA[<a href="https://zeteco.ch/">https://zeteco.ch/</a>]]>
+    </string>
+    <string name="source_code">
+        <![CDATA[<a href="http://github.com/dbrgn/ZeTeCoFahrplan">Source code</a>]]>
+    </string>
+    <string name="google_play_store">
+        <![CDATA[<a href="https://play.google.com/store/apps/details?id=ch.dbrgn.fahrplan">Google PlayStore listing</a>]]>
+    </string>
+    <string name="copyright_logo">33C3 artwork by
+        <![CDATA[<a href="http://veith-yaeger.de">Veith Yaeger</a>]]>
+    </string>
+</resources>

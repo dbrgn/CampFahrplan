@@ -1,5 +1,13 @@
 This is a fork from [ligi's CampFahrplan](https://github.com/dbrgn/CampFahrplan) app for 33C3. It has been slightly adapted for ZeTeCo 2017.
 
+To build:
+
+    $ ./gradlew build
+
+To install to a device:
+
+    $ ./gradlew installCcc33c3Debug
+
 Original README below.
 
 ---
