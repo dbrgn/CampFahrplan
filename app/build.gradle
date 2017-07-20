@@ -45,17 +45,17 @@ android {
     productFlavors {
         ccc33c3 {
             applicationId "org.ligi.fahrplan"
-            buildConfigField "String", "SCHEDULE_URL", '"https://raw.githubusercontent.com/voc/33C3_schedule/master/everything.schedule.xml"'
-            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"https://fahrplan.events.ccc.de"'
+            buildConfigField "String", "SCHEDULE_URL", '"https://fahrplan.zeteco.ch/schedule.xml"'
+            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"https://fahrplan.zeteco.ch"'
             buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
-            buildConfigField "String", "SCHEDULE_PART", '"/congress/2016/Fahrplan"'
+            buildConfigField "String", "SCHEDULE_PART", '""'
             buildConfigField "String", "VENUE", '"cch"'
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2016"
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "12"
-            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "26"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2016"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "12"
-            buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "30"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2017"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "7"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "21"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2017"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "7"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "24"
             buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/33C3/public/events/%s/feedback/new"'
         }
     }
