@@ -49,8 +49,8 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 import org.ligi.fahrplan.FahrplanContract.AlarmsTable;
-import org.ligi.fahrplan.congress.BuildConfig;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.BuildConfig;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 interface OnRefreshEventMarkers {
 

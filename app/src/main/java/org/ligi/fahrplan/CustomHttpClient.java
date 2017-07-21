@@ -14,7 +14,7 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
 import okhttp3.OkHttpClient;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 
 public class CustomHttpClient {

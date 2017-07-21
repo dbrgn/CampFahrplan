@@ -10,8 +10,8 @@ import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.view.Menu;
 import android.view.MenuItem;
-import org.ligi.fahrplan.congress.BuildConfig;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.BuildConfig;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 public class EventDetail extends BaseActivity {
 

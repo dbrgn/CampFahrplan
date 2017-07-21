@@ -8,7 +8,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.StringRes;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 public class ConfirmationDialog extends DialogFragment {
 

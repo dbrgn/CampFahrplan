@@ -16,8 +16,8 @@ import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateEncodingException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
-import org.ligi.fahrplan.congress.BuildConfig;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.BuildConfig;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 interface OnCertAccepted {
 

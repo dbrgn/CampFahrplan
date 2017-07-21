@@ -25,9 +25,9 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
-import org.ligi.fahrplan.congress.BuildConfig;
+import ch.dbrgn.fahrplan.zeteco.BuildConfig;
 import org.ligi.fahrplan.CustomHttpClient.HTTP_STATUS;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 import java.io.File;
 import java.util.List;

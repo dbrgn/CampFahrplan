@@ -16,8 +16,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import org.ligi.fahrplan.congress.BuildConfig;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.BuildConfig;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 public class AlarmTimePickerFragment extends DialogFragment {
 

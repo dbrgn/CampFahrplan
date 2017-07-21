@@ -5,7 +5,7 @@ import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
 import android.text.TextUtils;
 
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.R;
 import org.xmlpull.v1.XmlPullParser;
 
 import java.util.HashMap;

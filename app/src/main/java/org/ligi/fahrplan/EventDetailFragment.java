@@ -27,8 +27,8 @@ import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
-import org.ligi.fahrplan.congress.BuildConfig;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.BuildConfig;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

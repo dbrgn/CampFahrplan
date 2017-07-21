@@ -5,7 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
 import android.support.v7.app.AlertDialog;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 public abstract class AlertDialogHelper {
 

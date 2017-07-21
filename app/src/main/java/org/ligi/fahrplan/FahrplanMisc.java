@@ -23,12 +23,12 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
-import org.ligi.fahrplan.congress.BuildConfig;
+import ch.dbrgn.fahrplan.zeteco.BuildConfig;
 import org.ligi.fahrplan.FahrplanContract.AlarmsTable;
 import org.ligi.fahrplan.FahrplanContract.HighlightsTable;
 import org.ligi.fahrplan.FahrplanContract.LecturesTable;
 import org.ligi.fahrplan.FahrplanContract.MetasTable;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 public class FahrplanMisc {
 

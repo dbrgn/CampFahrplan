@@ -9,7 +9,7 @@ import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.TimeZone;
-import org.ligi.fahrplan.congress.BuildConfig;
+import ch.dbrgn.fahrplan.zeteco.BuildConfig;
 
 import info.metadude.java.library.brockman.models.Offer;
 

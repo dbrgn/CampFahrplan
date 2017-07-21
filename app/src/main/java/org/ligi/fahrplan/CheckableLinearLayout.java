@@ -20,7 +20,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.Checkable;
 import android.widget.LinearLayout;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 public class CheckableLinearLayout extends LinearLayout implements Checkable {
 

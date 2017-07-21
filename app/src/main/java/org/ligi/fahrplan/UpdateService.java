@@ -18,10 +18,10 @@ import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.text.format.Time;
 
-import org.ligi.fahrplan.congress.BuildConfig;
+import ch.dbrgn.fahrplan.zeteco.BuildConfig;
 import org.ligi.fahrplan.CustomHttpClient.HTTP_STATUS;
 import org.ligi.fahrplan.MyApp.TASKS;
-import org.ligi.fahrplan.congress.R;
+import ch.dbrgn.fahrplan.zeteco.R;
 
 public class UpdateService extends IntentService
         implements OnDownloadCompleteListener, OnParseCompleteListener {
