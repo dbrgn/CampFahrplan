@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-import org.ligi.fahrplan.RoomForC3NavConverter;
+import ch.dbrgn.fahrplan.RoomForC3NavConverter;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

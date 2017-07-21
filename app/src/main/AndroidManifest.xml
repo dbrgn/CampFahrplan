@@ -10,72 +10,72 @@
     <application
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
-            android:name="org.ligi.fahrplan.MyApp"
+            android:name="ch.dbrgn.fahrplan.MyApp"
             android:theme="@style/Theme.Congress"
             >
         <activity
                 android:label="@string/app_name"
                 android:theme="@style/Theme.Congress.NoActionBar"
                 android:launchMode="singleTop"
-                android:name="org.ligi.fahrplan.MainActivity">
+                android:name="ch.dbrgn.fahrplan.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
-                android:name="org.ligi.fahrplan.EventDetail"
+                android:name="ch.dbrgn.fahrplan.EventDetail"
                 android:configChanges="keyboardHidden|orientation"
                 android:label="@string/fahrplan"
                 android:uiOptions="splitActionBarWhenNarrow"
-                android:parentActivityName="org.ligi.fahrplan.MainActivity">
+                android:parentActivityName="ch.dbrgn.fahrplan.MainActivity">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="org.ligi.fahrplan.MainActivity"/>
+                    android:value="ch.dbrgn.fahrplan.MainActivity"/>
         </activity>
         <activity
                 android:configChanges="keyboardHidden|orientation"
-                android:name="org.ligi.fahrplan.AlarmList"
+                android:name="ch.dbrgn.fahrplan.AlarmList"
                 android:label="@string/reminders"
-                android:parentActivityName="org.ligi.fahrplan.MainActivity">
+                android:parentActivityName="ch.dbrgn.fahrplan.MainActivity">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="org.ligi.fahrplan.MainActivity"/>
+                    android:value="ch.dbrgn.fahrplan.MainActivity"/>
         </activity>
 
-        <receiver android:name="org.ligi.fahrplan.AlarmReceiver">
+        <receiver android:name="ch.dbrgn.fahrplan.AlarmReceiver">
         </receiver>
-        <receiver android:name="org.ligi.fahrplan.onBootReceiver">
+        <receiver android:name="ch.dbrgn.fahrplan.onBootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"></action>
             </intent-filter>
         </receiver>
 
         <activity
-                android:name="org.ligi.fahrplan.SettingsActivity"
+                android:name="ch.dbrgn.fahrplan.SettingsActivity"
                 android:theme="@style/Theme.Congress.NoActionBar"
                 android:label="@string/settings"/>
         <service
-                android:name="org.ligi.fahrplan.UpdateService"
+                android:name="ch.dbrgn.fahrplan.UpdateService"
                 android:exported="false"/>
-        <receiver android:name="org.ligi.fahrplan.ConnectivityStateReceiver">
+        <receiver android:name="ch.dbrgn.fahrplan.ConnectivityStateReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
             </intent-filter>
         </receiver>
 
         <activity
-            android:name="org.ligi.fahrplan.ChangeListActivity"
+            android:name="ch.dbrgn.fahrplan.ChangeListActivity"
             android:theme="@style/Theme.Congress.NoActionBar"
             android:label="@string/schedule_changes" >
         </activity>
         <activity
-            android:name="org.ligi.fahrplan.StarredListActivity"
+            android:name="ch.dbrgn.fahrplan.StarredListActivity"
             android:theme="@style/Theme.Congress.NoActionBar"
             android:label="@string/starred_lectures" >
         </activity>
         <activity
-                android:name="org.ligi.fahrplan.TalkPrefsImportActivity"
+                android:name="ch.dbrgn.fahrplan.TalkPrefsImportActivity"
                 android:exported="true" >
         </activity>
     </application>

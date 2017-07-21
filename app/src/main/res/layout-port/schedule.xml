@@ -33,7 +33,7 @@
         </HorizontalScrollView>
     </LinearLayout>
 
-    <org.ligi.fahrplan.CustomScrollView
+    <ch.dbrgn.fahrplan.CustomScrollView
             android:id="@+id/scrollView1"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -54,7 +54,7 @@
                     android:background="#ff000000">
             </LinearLayout>
 
-            <org.ligi.fahrplan.HorizontalSnapScrollView
+            <ch.dbrgn.fahrplan.HorizontalSnapScrollView
                     android:id="@+id/horizScroller"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -67,7 +67,7 @@
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
                 </LinearLayout>
-            </org.ligi.fahrplan.HorizontalSnapScrollView>
+            </ch.dbrgn.fahrplan.HorizontalSnapScrollView>
         </LinearLayout>
-    </org.ligi.fahrplan.CustomScrollView>
+    </ch.dbrgn.fahrplan.CustomScrollView>
 </RelativeLayout>

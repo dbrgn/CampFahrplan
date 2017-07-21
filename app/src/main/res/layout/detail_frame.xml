@@ -4,7 +4,7 @@
              android:id="@+id/detail"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="org.ligi.fahrplan.EventDetail"
+             tools:context="ch.dbrgn.fahrplan.EventDetail"
              tools:layout="@layout/detail">
 
 

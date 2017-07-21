@@ -1,10 +1,10 @@
-package org.ligi.fahrplan;
+package ch.dbrgn.fahrplan;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-import org.ligi.fahrplan.ConferenceTimeFrame;
+import ch.dbrgn.fahrplan.ConferenceTimeFrame;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

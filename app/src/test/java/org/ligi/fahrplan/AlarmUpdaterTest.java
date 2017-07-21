@@ -1,4 +1,4 @@
-package org.ligi.fahrplan;
+package ch.dbrgn.fahrplan;
 
 import org.junit.Before;
 import org.junit.Test;

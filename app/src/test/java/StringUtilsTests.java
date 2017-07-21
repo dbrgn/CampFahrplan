@@ -2,7 +2,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
-import org.ligi.fahrplan.StringUtils;
+import ch.dbrgn.fahrplan.StringUtils;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

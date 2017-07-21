@@ -6,7 +6,7 @@ import org.junit.runners.JUnit4;
 import java.util.Calendar;
 import java.util.Date;
 
-import org.ligi.fahrplan.DateHelper;
+import ch.dbrgn.fahrplan.DateHelper;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

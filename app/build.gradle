@@ -44,7 +44,7 @@ android {
 
     productFlavors {
         zeteco {
-            applicationId "org.ligi.fahrplan"
+            applicationId "ch.dbrgn.fahrplan"
             buildConfigField "String", "SCHEDULE_URL", '"https://fahrplan.zeteco.ch/schedule.xml"'
             buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"https://fahrplan.zeteco.ch"'
             buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
